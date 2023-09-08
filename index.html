@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<!--Designed by Marquis Egbunike-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxury Hotel</title>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+/>
+    <!------awesome font cdnjs link---->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!------custom css file link----->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!----header section start-->
+    <header>
+
+        <div id="menu-bar" class="fas fa-bars"></div>
+
+        <a href="#" class="logo"><span>H</span>otel</a>
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#book">book</a>
+            <a href="#features">features</a>
+            <a href="#services">services</a>
+            <a href="#gallery">gallery</a>
+            <a href="#reviews">reviews</a>
+            <a href="#contact">contact</a>
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-search" id="search-btn"></i>
+            <i class="fas fa-user" id="login-btn"></i>
+        </div>
+
+        <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="search here...">
+            <label for="search-bar" class="fas fa-search"></label>
+        </form>
+    </header>
+
+    <!----header section end-->
+
+    <!--login form container-->
+
+    <div class="login-form-container">
+        <i class="fas fa-times" id="form-close"></i>
+        <form action="">
+            <h3>login</h3>
+            <input type="email" class="box" placeholder="enter your email">
+            <input type="password" class="box" placeholder="enter your password">
+            <input type="submit" value="login now" class="btn">
+            <input type="checkbox" class="remember">
+            <label for="remember">Remember me</label>
+            <p>Forgot password? <a href="#">click here</a></p>
+            <p>Don't have an account? <a href="#">Register now</a></p>
+        </form>    
+    </div>
+    <!--login form container end-->
+
+    <!--home section starts-->
+
+    <section class="home" id="home">
+        <div class="content">
+            <h3>Welcome to a Global icon of Luxury</h3>
+            <p>discover new places with us, luxury awaits</p>
+            <a href="#" class="btn">discover more</a>
+        </div>
+
+        <div class="controls">
+            <span class="vid-btn active" data-src="./videos/vid01.mp4"></span>
+            <span class="vid-btn" data-src="./videos/vid02.mp4"></span>
+            <span class="vid-btn" data-src="./videos/vid03.mp4"></span>
+            <span class="vid-btn" data-src="./videos/vid04.mp4"></span>
+            <span class="vid-btn" data-src="./videos/vid05.mp4"></span>
+        </div>
+
+        <div class="video-container">
+            <video src="./videos/vid01.mp4" id="video-slider" loop autoplay muted></video>
+        </div>
+    </section>
+        <!--home section end-->
+
+        <!--book section starts-->
+
+        <section class="book" id="book">
+            <h1 class="heading">
+                <span>b</span>
+                <span>o</span>
+                <span>o</span>
+                <span>k</span>
+                <span class="space"></span>
+                <span>n</span>
+                <span>o</span>
+                <span>w</span>
+            </h1>
+
+            <div class="row">
+                <div class="img">
+                    <img src="./images/svg.jpg" alt="">
+                </div>
+
+                <form action="">
+                    <div class="inputBox">
+                        <h3>where to</h3>
+                        <input type="text" placeholder="place name">
+                    </div>
+                    <div class="inputBox">
+                        <h3>how many</h3>
+                        <input type="number" placeholder="number of guest">
+                    </div>
+                    <div class="inputBox">
+                        <h3>arrivals</h3>
+                        <input type="date">
+                    </div>
+                    <div class="inputBox">
+                        <h3>leaving</h3>
+                        <input type="date">
+                    </div>
+                    <input type="submit" class="btn" value="book now">
+                </form>
+            </div>
+        </section>
+
+        <!--book section end-->
+
+        <!--features start-->
+
+        <section class="features id="features">
+            <h1 class="heading">
+                <span>f</span>
+                <span>e</span>
+                <span>a</span>
+                <span>t</span>
+                <span>u</span>
+                <span>r</span>
+                <span>e</span>
+                <span>s</span>
+            </h1>
+
+            <div class="box-container">
+                <div class="box">
+                    <img src="./images/mumbai.jpg" alt="">
+                    <div class="content">
+                        <h3><i class="fas fa-map-marker-alt"></i>mumbai</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="price">$90.00<span>$120.00</span></div>
+                        <a href="#" class="btn">book now</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="./images/australia.jpg" alt="">
+                    <div class="content">
+                        <h3><i class="fas fa-map-marker-alt"></i>australia</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="price">$90.00<span>$120.00</span></div>
+                        <a href="#" class="btn">book now</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="./images/dubai.jpg" alt="">
+                    <div class="content">
+                        <h3><i class="fas fa-map-marker-alt"></i>dubai</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="price">$90.00<span>$120.00</span></div>
+                        <a href="#" class="btn">book now</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="./images/sounthafrica.jpg" alt="">
+                    <div class="content">
+                        <h3><i class="fas fa-map-marker-alt"></i>sounth africa</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="price">$90.00<span>$120.00</span></div>
+                        <a href="#" class="btn">book now</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="./images/india.jpg" alt="">
+                    <div class="content">
+                        <h3><i class="fas fa-map-marker-alt"></i>india</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="price">$90.00<span>$120.00</span></div>
+                        <a href="#" class="btn">book now</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="./images/singapore.jpg" alt="">
+                    <div class="content">
+                        <h3><i class="fas fa-map-marker-alt"></i>singapore</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="price">$90.00<span>$120.00</span></div>
+                        <a href="#" class="btn">book now</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+        
+        <!--features start-->
+
+<!--services section starts-->
+
+<section class="services" id="services">
+    <h1 class="heading">
+        <span>s</span>
+        <span>e</span>
+        <span>r</span>
+        <span>v</span>
+        <span>i</span>
+        <span>c</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+
+    <div class="box-container">
+        <div class="box">
+            <i class="fas fa-hotel"></i>
+                <h3>affordable hotel</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis modi delectus iusto, tempore adipisci autem ipsa ad eaque assumenda est. Vel corrupti culpa soluta veniam sint doloribus! Hic, nemo debitis?</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-utensils"></i>
+                <h3>food & drinks</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis modi delectus iusto, tempore adipisci autem ipsa ad eaque assumenda est. Vel corrupti culpa soluta veniam sint doloribus! Hic, nemo debitis?</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-bullhorn"></i>
+                <h3>safty guide</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis modi delectus iusto, tempore adipisci autem ipsa ad eaque assumenda est. Vel corrupti culpa soluta veniam sint doloribus! Hic, nemo debitis?</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-globe-asia"></i>
+                <h3>around the world</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis modi delectus iusto, tempore adipisci autem ipsa ad eaque assumenda est. Vel corrupti culpa soluta veniam sint doloribus! Hic, nemo debitis?</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-plane"></i>
+                <h3>fastest travel</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis modi delectus iusto, tempore adipisci autem ipsa ad eaque assumenda est. Vel corrupti culpa soluta veniam sint doloribus! Hic, nemo debitis?</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-hiking"></i>
+                <h3>advertures</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis modi delectus iusto, tempore adipisci autem ipsa ad eaque assumenda est. Vel corrupti culpa soluta veniam sint doloribus! Hic, nemo debitis?</p>
+        </div>        
+    </div>    
+</section>
+
+<!--services section ends-->
+
+<!--gallery section starts-->
+
+<section class="gallery" id="gallery">
+    <h1 class="heading">
+        <span>g</span>
+        <span>a</span>
+        <span>l</span>
+        <span>l</span>
+        <span>e</span>
+        <span>r</span>
+        <span>y</span>
+    </h1>
+
+    <div class="box-container">
+        <div class="box">
+            <img src="./images/gallery1.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique nemo amet vel itaque, corporis, quia vitae architecto voluptas, non recusandae fugiat pariatur officia soluta dolore. Culpa autem iure dolor eveniet.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="./images/gallery2.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique nemo amet vel itaque, corporis, quia vitae architecto voluptas, non recusandae fugiat pariatur officia soluta dolore. Culpa autem iure dolor eveniet.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="./images/gallery3.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique nemo amet vel itaque, corporis, quia vitae architecto voluptas, non recusandae fugiat pariatur officia soluta dolore. Culpa autem iure dolor eveniet.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="./images/gallery4.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique nemo amet vel itaque, corporis, quia vitae architecto voluptas, non recusandae fugiat pariatur officia soluta dolore. Culpa autem iure dolor eveniet.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="./images/gallery5.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique nemo amet vel itaque, corporis, quia vitae architecto voluptas, non recusandae fugiat pariatur officia soluta dolore. Culpa autem iure dolor eveniet.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="./images/gallery6.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique nemo amet vel itaque, corporis, quia vitae architecto voluptas, non recusandae fugiat pariatur officia soluta dolore. Culpa autem iure dolor eveniet.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="./images/gallery7.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique nemo amet vel itaque, corporis, quia vitae architecto voluptas, non recusandae fugiat pariatur officia soluta dolore. Culpa autem iure dolor eveniet.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="./images/gallery8.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique nemo amet vel itaque, corporis, quia vitae architecto voluptas, non recusandae fugiat pariatur officia soluta dolore. Culpa autem iure dolor eveniet.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="./images/gallery9.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique nemo amet vel itaque, corporis, quia vitae architecto voluptas, non recusandae fugiat pariatur officia soluta dolore. Culpa autem iure dolor eveniet.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!--gallery section ends-->
+
+<!--review section starts-->
+
+<section class="review" id="review">
+    <h1 class="heading">
+        <span>r</span>
+        <span>e</span>
+        <span>v</span>
+        <span>i</span>
+        <span>e</span>
+        <span>w</span>
+    </h1>
+    <div class="swiper mySwiper review-slider">
+        <div class="swiper-wrapper wrapper">
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="./images/team-1.jpg" alt="">
+                    <h3>Edward Bey</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas autem distinctio incidunt mollitia omnis? Quod, natus consequuntur nihil commodi, labore repellendus quo odio ullam cum veritatis sapiente ducimus quidem voluptatum.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="./images/team-2.jpg" alt="">
+                    <h3>James Brown</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas autem distinctio incidunt mollitia omnis? Quod, natus consequuntur nihil commodi, labore repellendus quo odio ullam cum veritatis sapiente ducimus quidem voluptatum.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="./images/team-3.jpg" alt="">
+                    <h3>Tobi Smith</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas autem distinctio incidunt mollitia omnis? Quod, natus consequuntur nihil commodi, labore repellendus quo odio ullam cum veritatis sapiente ducimus quidem voluptatum.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="./images/team-1.jpg" alt="">
+                    <h3>Alice Beauty</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas autem distinctio incidunt mollitia omnis? Quod, natus consequuntur nihil commodi, labore repellendus quo odio ullam cum veritatis sapiente ducimus quidem voluptatum.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--review section ends-->
+
+<!--contact section starts-->
+
+<section class="contact" id="contact">
+    <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+    </h1>
+    <div class="row">
+        <div class="img">
+            <img src="./images/contact.jpg" alt="">
+        </div>
+        <form action="">
+            <div class="inputBox">
+                <input type="text" placeholder="name">
+                <input type="email" placeholder="email">
+            </div>
+            <div class="inputBox">
+                <input type="number" placeholder="number">
+                <input type="text" placeholder="subject">
+            </div>
+            <textarea placeholder="message" name="" cols="30" rows="10"></textarea>
+            <input type="submit" class="btn" value="send message">
+        </form>
+    </div>
+</section>
+
+<!--contact section ends-->
+
+<!--brand section starts-->
+
+<section class="brand-container">
+    <div class="swiper mySwiper brand-slider">
+        <div class="swiper-wrapper wrapper">
+            <div class="swiper-slide"><img src="./images/adidas-logo.png" alt=""></div>
+            <div class="swiper-slide"><img src="./images/chevron-logo.png" alt=""></div>
+            <div class="swiper-slide"><img src="./images/schlumberger-logo.png" alt=""></div>
+            <div class="swiper-slide"><img src="./images/baker-hughes-logo.png" alt=""></div>
+            <div class="swiper-slide"><img src="./images/shell-logo.png" alt=""></div>
+            <div class="swiper-slide"><img src="./images/android-logo.png" alt=""></div>
+        </div>
+    </div>
+</section>
+
+<!--brand section ends-->
+
+<!--footer section-->
+
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>about us</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse voluptate illum eius voluptatibus ipsam magni itaque eligendi mollitia ratione rerum ea quos asperiores autem placeat dignissimos alias nisi, et inventore?</p>
+        </div>
+        <div class="box">
+            <h3>branch locations</h3>
+            <a href="#">USA</a>
+            <a href="#">India</a>
+            <a href="#">Japan</a>
+            <a href="#">Philippines</a>
+            <a href="#">France</a>
+        </div>
+        <div class="box">
+            <h3>Quick Links</h3>
+            <a href="#">home</a>
+            <a href="#">book</a>
+            <a href="#">features</a>
+            <a href="#">services</a>
+            <a href="#">gallery</a>
+            <a href="#">France</a>
+            <a href="#">contact</a>
+        </div>
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="#">facebook</a>
+            <a href="#">instagram</a>
+            <a href="#">twitter</a>
+            <a href="#">linkedin</a>
+        </div>
+    </div>
+    <h1 class="credit">created by <span>Marquishub</span> | all rights reserved!</h1>
+</section>
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<!-------custom js file link------>
+<script src="main.js"></script>
+    
+</body>
+</html>
